@@ -1,0 +1,14 @@
+{
+  "name": "2019_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio revamped on April 2019",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w --output-style compressed"
+  },
+  "author": "Mario Borras",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

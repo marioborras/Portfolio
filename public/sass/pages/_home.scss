@@ -1,0 +1,45 @@
+@media screen and (max-width: 1000px) {
+
+  .header {
+    position: static;
+    
+  }
+  .logo {
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+  .nav-primary {
+    margin: 1.5rem 2rem;
+    float: left;
+    &__item {
+      font-size: 3.0rem;
+    }
+   
+  }
+
+
+  .introduction h1 {
+    padding: 3rem 2rem 5rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+/* projects */
+.project__image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project__info {
+  width: auto;
+}
+.btn {
+  margin-bottom: 2rem;
+  display: inline-block;
+  &:nth-child(even){
+    float: left;
+  }
+}
+
+}

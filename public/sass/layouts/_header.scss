@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+ 
+}
+
+.logo {
+  /* display: inline-block; */
+  height: 8rem;
+  float: left;
+  margin: 2rem;
+
+}
+.nav-primary {
+  margin: 4rem;
+  float: right;
+  &__item {
+    font-size: 3.5rem;
+    display: inline;
+    font-size: 3.5rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    & a {
+      text-decoration: none;
+      color: inherit;
+    }
+    & i{
+      transition: all .3s ease-out;
+    }
+  }
+}
+
+.nav-primary__item i:hover,.nav-primary__item a:hover {
+  color: $color-blue;
+  transform: scale(1.2)
+
+
+}
+
+.clear-fix {
+  clear:both;
+}

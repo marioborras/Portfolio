@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+.DS_Store
+firebase.json
+.firebaserc
+/y
+/.firebase
