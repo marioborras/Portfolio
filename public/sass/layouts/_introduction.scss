@@ -1,13 +1,18 @@
 /* introduction */
 .introduction {
   padding-top: 5rem;
+  
+  
   h1 {
+    max-width: 144rem;
+    text-align: center;
     color: $color-gray-dark;
     font-size: 4.5rem;
     font-weight: 400;
     line-height: 1.5;
-    text-align: center;
+    display: block;
     padding: 20rem 20.5rem;
+    margin: 0 auto;
   }
   
 }

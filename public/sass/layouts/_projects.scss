@@ -2,69 +2,78 @@
 
 /* Projects */
 
-.project-intro {
-  background-color: #41748D;
-  color: #fff;
-  font-size: 2.4rem;
-  text-transform: capitalize;
-  padding: 2rem;
-  font-weight: 300;
-    text-align: center;
-}
-.project-intro h1 {
-  font-weight: 300;
-}
 .project {
   overflow: hidden;
-}
+  &-section-heading {
+    background-color: #41748D;
+    color: #fff;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    padding: 2rem;
+    font-weight: 300;
+    text-align: center;
 
-.project:nth-child(odd) {
-background-color: #ececec;
-}
-.project:nth-child(even) {
-  background-color: #ddd;
+    & h1 {
+      font-weight: 300;
+    }
+
   }
 
-.project__title {
-  font-size: 2.8rem;
-  font-weight: 300;
-  padding: 5rem 3rem 0;
-}
-.project__image {
-  float: right;
-  padding: 4rem 3rem 0;
-  width: 60%;
-  transition: all .3s ease-out;
-}
-.project__image:hover {
-  transform: scale(1.1)
-}
-.project__info {
-  float: left;
-  width: 40%;
-  padding: 3rem;
-}
+  &:nth-child(odd) {
+    background-color: #ececec;
+  }
 
-.info__label {
-  font-size: 2.3rem;
-  font-weight: 300;
-  margin-bottom: 1.5rem;
-}
-.info__text {
+  &:nth-child(even) {
+    background-color: #ddd;
+  }
+
+  &__title {
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding: 5rem 3rem 0;
+  }
+
+  &__image {
+    float: right;
+    padding: 4rem 3rem 0;
+    width: 60%;
+    transition: all .3s ease-out;
+
+  &:hover {
+    transform: scale(1.1)
+  }
+  }
+
+  &__info {
+    float: left;
+    width: 40%;
+    padding: 3rem;
+  }
+
+  &__info-heading {
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
   font-size: 1.6rem;
   line-height: 1.5;
-}
-.project__tools {
-  margin-top: 3rem;
-  list-style: none;
-  
-}
-.project__tool {
-  font-size: 7.0rem;
-  display: inline-block;
-  margin-right: 3rem;
-}
-.project__actions {
-  margin: 0 0 4rem 3rem;
-  clear: both;
+  }
+
+  &__tools {
+    margin-top: 3rem;
+    list-style: none;
+  }
+
+  &__tool {
+    font-size: 7.0rem;
+    display: inline-block;
+    margin-right: 3rem;
+  }
+
+  &__actions {
+    margin: 0 0 4rem 3rem;
+    clear: both;
+  }
 }
